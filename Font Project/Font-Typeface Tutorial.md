@@ -1,5 +1,7 @@
 by Catherine Addington
 
+[![alt text](https://raw.githubusercontent.com/caddington11/praxis/master/Font%20Project/Font%20download%20graphic.jpg "Click to download the New Hampshire Font.")](https://github.com/caddington11/praxis/blob/master/Font%20Project/NewHampshire-Regular.otf?raw=true)
+
 In pursuing this project, each Praxis team member was asked what they would want to do with public domain materials. I wasn’t sure if I was allowed to do what I wanted to do, which was harvest the fabulous barbed typeface from Robert Frost’s _New Hampshire_ and use it in all my design projects for the rest of time. After all, the book is not just text—it’s art, too, thanks to J.J. Lankes’s original woodcuts. The typeface is only used on the four title pages in the book: the one for the [collection][1] itself, and for each of the three major sections ([_New Hampshire_][2], [_Notes_][3], and [_Grace Notes_][4]). Even so, it makes a strong visual impact. I wanted to know: when the book came into the public domain this year, did its typographical design come with it? (Spoiler alert: nope…because it was already in the public domain!)
 
 But just because something’s free to use doesn’t mean it is actually available to use—that’s where Project Name comes in. In the hopes of empowering other typography enthusiasts, bibliography scholars, and digital tinkerers to pursue their own font reconstruction projects, this tutorial will:

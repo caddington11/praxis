@@ -18,7 +18,7 @@ Since this project deals with exploring the legal parameters of the public domai
 # Reconstructing the _New Hampshire_ Typeface
 The first step was to try and identify the typeface, in order to avoid any duplication of effort. [IdentiFont][8], [FontSpring Matcherator][9], and [WhatFontIs][10] all came up empty, so then I started looking at other books published by Henry Holt & Company around the same time. No matches.
 
-According to [Sue Donovan][11], Conservator for Special Collections at the University of Virginia, it is unlikely that this typeface was cut as moveable type to be reused in multiple places. Rather, it is more likely that the publisher contracted with the collection’s illustrator, J.J. Lankes, to cut these title pages individually. For instance, she noted, observe how all the S letters are unique:
+According to [Sue Donovan][11], Conservator for Special Collections at the University of Virginia, it is unlikely that this typeface was cut as moveable type to be reused in multiple places. Rather, it is more likely that the publisher contracted with the collection’s illustrator, J.J. Lankes, to cut these title pages individually. For instance, she noted, observe how all the S letters on the initial title page—and in the three following it—are unique:
 
 ![alt text](https://raw.githubusercontent.com/caddington11/praxis/master/Font%20Project/S%20comparison.jpg "Compare S letters on the four title pages.")
 
@@ -28,6 +28,7 @@ As such, the typeface would need to be built out from scratch. Here are the step
 2. I isolated individual characters, creating a JPG file for each character using my computer’s screenshot tool.
 3. I then used Adobe Photoshop to clean up each character, removing any printing blemishes or traces of adjacent characters as well as introducing a transparent background. (A free, open-source, multi-platform alternative to Photoshop is [GIMP][13].)
 4. Since the typeface was only used on a few pages of _New Hampshire_, the sample size was too limited to produce a complete character set.<a name="anchor1"><sup>[1](#fn1)</sup></a> I used Photoshop to draw the missing characters that were most essential to make the typeface functional:
+![alt text](https://raw.githubusercontent.com/caddington11/praxis/master/Font%20Project/Q%20construction.jpg "The missing Q was constructed from the O and the R.")
 5. I customized and completed a template from the font-creation tool [Calligraphr][14]<a name="anchor2"><sup>[2](#fn2)</sup></a>, placing each character image into the template using Photoshop. I filled out the lowercase template with the uppercase letters, producing a “[small caps][18]” effect, rather than drawing lowercase letters fresh.
 6. After uploading the template to [Calligraphr][19], the website returned both [OpenType and TrueType][20] font files, which I then installed on my computer to test them out in a text editor. Everything looked good, so the next step was to make them usable on the web.
 7. Using FontSquirrel’s [Webfont Generator][21], I downloaded a Web Font Kit with sample stylesheets, which I passed along to our stellar web team for use on the website.

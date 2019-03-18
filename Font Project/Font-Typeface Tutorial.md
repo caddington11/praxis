@@ -33,12 +33,30 @@ As such, the typeface would need to be built out from scratch. Here are the step
 # Releasing the _New Hampshire_ Font and Typeface
 As mentioned above, the _New Hampshire_ typeface is already in the public domain by virtue of typefaces being uncopyrightable. (It’s also much easier to access now that the poetry collection it decorates is itself in the public domain.) But the _New Hampshire_ font produced in this tutorial—the digital instantiation of the typeface—is a slightly different story.
 
-In the tutorial above, I used the tool [Calligraphr][22] to produce the New Hampshire font used on this website. According to [Calligraphr’s terms of use][23], any font created using Calligraphr is the user’s sole property, with no requirements regarding use or attribution. That gave me the opportunity to become the font’s copyright owner. Instead, I am choosing to release it into the public domain here. More precisely, I’m using the [Creative Commons “CC0” tool (“No Rights Reserved”)][24] to waive all my copyright and related rights in their works to the fullest extent allowed by law, “so that others may freely build upon, enhance and reuse the works for any purposes without restriction.” [^5]
-
+In the tutorial above, I used the tool [Calligraphr][22] to produce the New Hampshire font used on this website. According to [Calligraphr’s terms of use][23], any font created using Calligraphr is the user’s sole property, with no requirements regarding use or attribution. That gave me the opportunity to become the font’s copyright owner. Instead, I am choosing to release it into the public domain here. More precisely, I’m using the [Creative Commons “CC0” tool (“No Rights Reserved”)][24] to waive all my copyright and related rights in their works to the fullest extent allowed by law, “so that others may freely build upon, enhance and reuse the works for any purposes without restriction.”
+---- 
+\<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"\>
+  \<a rel="license"
+ href="http://creativecommons.org/publicdomain/zero/1.0/"\>
+\<img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /\>
+  \</a\>
+  \<br /\>
+  To the extent possible under law,
+  \<a rel="dct:publisher"
+ href="http://catherineaddington.com"\>
+\<span property="dct:title"\>Catherine Addington\</span\>\</a\>
+  has waived all copyright and related or neighboring rights to
+  \<span property="dct:title"\>New Hampshire Font\</span\>.
+This work is published from:
+\<span property="vcard:Country" datatype="dct:ISO3166"
+  content="US" about="http://catherineaddington.com"\>
+  United States\</span\>.
+\</p\>
+---- 
 I chose this license not just because our entire project seeks to enrich the public domain, but because my doing so serves as a demonstration of the complex dynamic at play here. Through a series of strange legal events, I ended up with a claim to own something I barely put any effort into: J.J. Lankes created the typeface design, Calligraphr produced the font programming, and I did some quick screenshot cleanup in between. I could charge oblivious online typography buffs for the use of the New Hampshire font, and arguably that’s my prerogative, but then I would be depriving the public of free access to something that was theirs to begin with. Instead, this release aims to educate. It is only by educating ourselves about this issue that we can both engage the public-domain designs that are rightfully ours and understand the value added by programmers who copyright the code that makes them available to us online.
 
 # Acknowledgments
-Special thanks to [Brandon Butler][26], [Jeremy Boggs][27], and [Sue Donovan][28] for consulting on this project.
+Special thanks to [Brandon Butler][25], [Jeremy Boggs][26], and [Sue Donovan][27] for consulting on this project.
 
 [^1]:	Insert S comparison dot jpg.
 
@@ -55,8 +73,6 @@ Special thanks to [Brandon Butler][26], [Jeremy Boggs][27], and [Sue Donovan][28
 	Quotes come from stretching out some unidentifiable lines sorry
 
 [^4]:	[Calligraphr][15] is free to use for your first font, but beyond that it is a paid service. There are free, open-source alternatives if you are looking to reconstruct or create more fonts, but they are much more labor intensive. To start, you need to be working from **vector** graphics (which are resolution-independent, scaling up or down without losing quality) rather than **raster** graphics (which contain a specific number of pixels, so they have limited resolution). In this tutorial, I worked from JPGs and Photoshop files (PSDs)—both raster graphics formats—rather than a vector graphics format, such as SVG. The free, open-source [Inkscape][16] is one example of a vector graphics editor that could be used as a basis for a font. Next, you could use a free, open-source font editor like [FontForge][17] to build out the font itself. For this project, I chose to stay with Calligraphr not only because it was easy but because it was the most compatible with typeface **reconstruction** rather than **creation**. Font editors generally assume that the user is working from scratch rather than converting existing images into a digital font.
-
-[^5]:	Here I need to put in the html of the [CC0 waiver][25].
 
 [1]:	https://babel.hathitrust.org/cgi/imgsrv/image?id=uc1.32106002108873;seq=9;width=510
 [2]:	https://babel.hathitrust.org/cgi/imgsrv/image?id=uc1.32106002108873;seq=15;width=680
@@ -82,7 +98,6 @@ Special thanks to [Brandon Butler][26], [Jeremy Boggs][27], and [Sue Donovan][28
 [22]:	https://www.calligraphr.com/
 [23]:	https://www.calligraphr.com/en/docs/faq
 [24]:	https://creativecommons.org/share-your-work/public-domain/cc0/
-[25]:	https://creativecommons.org/choose/zero/waiver
-[26]:	https://www.library.virginia.edu/staff/bcb4y
-[27]:	https://scholarslab.lib.virginia.edu/people/jeremy-boggs/
-[28]:	https://www.library.virginia.edu/staff/sd3gz
+[25]:	https://www.library.virginia.edu/staff/bcb4y
+[26]:	https://scholarslab.lib.virginia.edu/people/jeremy-boggs/
+[27]:	https://www.library.virginia.edu/staff/sd3gz

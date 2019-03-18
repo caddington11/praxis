@@ -20,6 +20,8 @@ The first step was to try and identify the typeface, in order to avoid any dupli
 
 According to [Sue Donovan][11], Conservator for Special Collections at the University of Virginia, it is unlikely that this typeface was cut as moveable type to be reused in multiple places. Rather, it is more likely that the publisher contracted with the collection’s illustrator, J.J. Lankes, to cut these title pages individually. For instance, she noted, observe how all the S letters are unique:
 
+![alt text](https://raw.githubusercontent.com/caddington11/praxis/master/Font%20Project/S%20comparison.jpg "Compare S letters on the four title pages.")
+
 As such, the typeface would need to be built out from scratch. Here are the steps I followed:
 
 1. I downloaded a high-resolution [image][12] of the collection’s title page from HathiTrust.

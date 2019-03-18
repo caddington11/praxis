@@ -18,15 +18,15 @@ Since this project deals with exploring the legal parameters of the public domai
 # Reconstructing the _New Hampshire_ Typeface
 The first step was to try and identify the typeface, in order to avoid any duplication of effort. [IdentiFont][8], [FontSpring Matcherator][9], and [WhatFontIs][10] all came up empty, so then I started looking at other books published by Henry Holt & Company around the same time. No matches.
 
-According to[Sue Donovan][11], Conservator for Special Collections at the University of Virginia, it is unlikely that this typeface was cut as moveable type to be reused in multiple places. Rather, it is more likely that the publisher contracted with the collection’s illustrator, J.J. Lankes, to cut these title pages individually. For instance, she noted, observe how all the S letters are unique:[^1]
+According to[Sue Donovan][11], Conservator for Special Collections at the University of Virginia, it is unlikely that this typeface was cut as moveable type to be reused in multiple places. Rather, it is more likely that the publisher contracted with the collection’s illustrator, J.J. Lankes, to cut these title pages individually. For instance, she noted, observe how all the S letters are unique:
 
 As such, the typeface would need to be built out from scratch. Here are the steps I followed:
 
 1. I downloaded a high-resolution [image][12] of the collection’s title page from HathiTrust.
 2. I isolated individual characters, creating a JPG file for each character using my computer’s screenshot tool.
 3. I then used Adobe Photoshop to clean up each character, removing any printing blemishes or traces of adjacent characters as well as introducing a transparent background. (A free, open-source, multi-platform alternative to Photoshop is [GIMP][13].)
-4. Since the typeface was only used on a few pages of _New Hampshire_, the sample size was too limited to produce a complete character set.[^2] I used Photoshop to draw the missing characters that were most essential to make the typeface functional:[^3]
-5. I customized and completed a template from the font-creation tool [Calligraphr][14][^4], placing each character image into the template using Photoshop. I filled out the lowercase template with the uppercase letters, producing a “[small caps][18]” effect, rather than drawing lowercase letters fresh.
+4. Since the typeface was only used on a few pages of _New Hampshire_, the sample size was too limited to produce a complete character set.[^1] I used Photoshop to draw the missing characters that were most essential to make the typeface functional:
+5. I customized and completed a template from the font-creation tool [Calligraphr][14][^2], placing each character image into the template using Photoshop. I filled out the lowercase template with the uppercase letters, producing a “[small caps][18]” effect, rather than drawing lowercase letters fresh.
 6. After uploading the template to [Calligraphr][19], the website returned both [OpenType and TrueType][20] font files, which I then installed on my computer to test them out in a text editor. Everything looked good, so the next step was to make them usable on the web.
 7. Using FontSquirrel’s [Webfont Generator][21], I downloaded a Web Font Kit with sample stylesheets, which I passed along to our stellar web team for use on the website.
 
@@ -35,7 +35,7 @@ As mentioned above, the _New Hampshire_ typeface is already in the public domain
 
 In the tutorial above, I used the tool [Calligraphr][22] to produce the New Hampshire font used on this website. According to [Calligraphr’s terms of use][23], any font created using Calligraphr is the user’s sole property, with no requirements regarding use or attribution. That gave me the opportunity to become the font’s copyright owner. Instead, I am choosing to release it into the public domain here. More precisely, I’m using the [Creative Commons “CC0” tool (“No Rights Reserved”)][24] to waive all my copyright and related rights in their works to the fullest extent allowed by law, “so that others may freely build upon, enhance and reuse the works for any purposes without restriction.”
 
-Click here to download the New Hampshire Font: [OpenType Font (.otf)](https://github.com/caddington11/praxis/blob/master/Font%20Project/NewHampshire-Regular.otf?raw=true) or [TrueType Font (.ttf)](https://github.com/caddington11/praxis/blob/master/Font%20Project/NewHampshire-Regular.ttf?raw=true). You can also get the [Web Font Kit here](https://github.com/caddington11/praxis/tree/master/Font%20Project/Web%20Font%20Kit).
+> Click here to download the New Hampshire Font: [OpenType Font (.otf)](https://github.com/caddington11/praxis/blob/master/Font%20Project/NewHampshire-Regular.otf?raw=true) or [TrueType Font (.ttf)](https://github.com/caddington11/praxis/blob/master/Font%20Project/NewHampshire-Regular.ttf?raw=true). You can also get the [Web Font Kit here](https://github.com/caddington11/praxis/tree/master/Font%20Project/Web%20Font%20Kit).
 
 > [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 > To the extent possible under law, [<span property="dct:title">Catherine Addington</span>](http://catherineaddington.com) has waived all copyright and related or neighboring rights to <span property="dct:title">New Hampshire Font</span>. This work is published from: <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="http://catherineaddington.com">United States</span>.
@@ -45,21 +45,9 @@ I chose this license not just because our entire project seeks to enrich the pub
 # Acknowledgments
 Special thanks to [Brandon Butler][25], [Jeremy Boggs][26], and [Sue Donovan][27] for consulting on this project.
 
-[^1]:	Insert S comparison dot jpg.
+[^1]:	Many of the characters on a modern keyboard—that is, all numbers and most punctuation—are absent from the New Hampshire typeface. Since these characters did not appear in the original sample, I opted to create a minimally functional character set rather than try to extend my approximation of the original style. However, that decision was based on the project’s needs (we didn’t need an at-sign if we intended just to use this font in our headings), rather than on any limitations imposed by copyright.
 
-[^2]:	Many of the characters on a modern keyboard—that is, all numbers and most punctuation—are absent from the New Hampshire typeface. Since these characters did not appear in the original sample, I opted to create a minimally functional character set rather than try to extend my approximation of the original style. However, that decision was based on the project’s needs (we didn’t need an at-sign if we intended just to use this font in our headings), rather than on any limitations imposed by copyright.
-
-[^3]:	Make graphics - I combined the O with the “tail” on the R to make a Q  
-	I extracted V from W  
-	I used two I-s for the “bars” of the Z, and added the diagonal line by stretching out part of an M  
-	Period mark was being weird so used half a colon instead  
-	Exclamation was made by dragging out half a colon and leaving the other half intact  
-	Question mark rotated half the ampersand, used half the colon for the bottom  
-	Comma and apostrophe are identical, come from a K diagonal and half a colon, stretched around  
-	Semicolon comes from half a colon plus comma  
-	Quotes come from stretching out some unidentifiable lines sorry
-
-[^4]:	[Calligraphr][15] is free to use for your first font, but beyond that it is a paid service. There are free, open-source alternatives if you are looking to reconstruct or create more fonts, but they are much more labor intensive. To start, you need to be working from **vector** graphics (which are resolution-independent, scaling up or down without losing quality) rather than **raster** graphics (which contain a specific number of pixels, so they have limited resolution). In this tutorial, I worked from JPGs and Photoshop files (PSDs)—both raster graphics formats—rather than a vector graphics format, such as SVG. The free, open-source [Inkscape][16] is one example of a vector graphics editor that could be used as a basis for a font. Next, you could use a free, open-source font editor like [FontForge][17] to build out the font itself. For this project, I chose to stay with Calligraphr not only because it was easy but because it was the most compatible with typeface **reconstruction** rather than **creation**. Font editors generally assume that the user is working from scratch rather than converting existing images into a digital font.
+[^2]:	[Calligraphr][15] is free to use for your first font, but beyond that it is a paid service. There are free, open-source alternatives if you are looking to reconstruct or create more fonts, but they are much more labor intensive. To start, you need to be working from **vector** graphics (which are resolution-independent, scaling up or down without losing quality) rather than **raster** graphics (which contain a specific number of pixels, so they have limited resolution). In this tutorial, I worked from JPGs and Photoshop files (PSDs)—both raster graphics formats—rather than a vector graphics format, such as SVG. The free, open-source [Inkscape][16] is one example of a vector graphics editor that could be used as a basis for a font. Next, you could use a free, open-source font editor like [FontForge][17] to build out the font itself. For this project, I chose to stay with Calligraphr not only because it was easy but because it was the most compatible with typeface **reconstruction** rather than **creation**. Font editors generally assume that the user is working from scratch rather than converting existing images into a digital font.
 
 [1]:	https://babel.hathitrust.org/cgi/imgsrv/image?id=uc1.32106002108873;seq=9;width=510
 [2]:	https://babel.hathitrust.org/cgi/imgsrv/image?id=uc1.32106002108873;seq=15;width=680
